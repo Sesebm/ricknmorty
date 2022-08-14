@@ -1,0 +1,100 @@
+@font-face{
+    font-family: "rick";
+    src: url("rick.ttf") format("truetype");
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+body{
+    background-image: url('https://toolxox.com/dl/vstock/download.php?file=dl.beatsnoop.com-1660497123.jpg');
+    background-size: 500px 400px;
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+}
+
+.head-img{
+border-radius: 20px;
+width: 100vw;
+object-fit:contain;
+}
+/* .head-h1{
+    font-size: 40px;
+    position: absolute;
+    z-index: 10;
+    top: 10%;
+    left: 15%;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.1px white;
+    font-family: "rick";
+} */
+
+
+.card{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.residents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+   padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.location{
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3%;
+    backdrop-filter: blur(24px) saturate(42%);
+    -webkit-backdrop-filter: blur(24px) saturate(42%);
+    background-color: rgba(17, 25, 40, 0.97);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.app{
+    position: relative;
+}
+.head-img-container{
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .location{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 3%;
+        backdrop-filter: blur(24px) saturate(42%);
+        -webkit-backdrop-filter: blur(24px) saturate(42%);
+        background-color: rgba(17, 25, 40, 0.97);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);}
+        .residents{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+           padding: 10px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+}
