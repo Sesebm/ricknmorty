@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Location from './modules/Location'
 import ResidentInfo from './modules/ResidentInfo'
-import UseAxios from './modules/Useaxios'
+import UseAxios from './modules/UseAxios'
 
 
 let aleatorio = Math.floor(Math.random() * 126) + 1;
