@@ -1,9 +1,9 @@
 import React from 'react'
-import UseAxios from './Useaxios'
+import UseAxios from './UseAxios'
 
 const ResidentInfo = ({url}) => {
  let character = UseAxios(url)
- console.log(character)
+
 
   return (
     <div className='card'>

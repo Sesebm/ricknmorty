@@ -75,6 +75,9 @@ object-fit:contain;
 .head-img-container{
     width: 100%;
 }
+.head-search{
+    width: 100%
+}
 
 @media (max-width: 700px) {
     .location{
